@@ -1,0 +1,79 @@
+
+.mainLogin{
+    /*font-family: helvitica neue;*/
+    font-size: 18px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+form{  	
+    box-shadow: 0 0 10px #908f8f;
+    padding: 20px 30px 30px 60px;
+}  
+.width100p{
+    width:100%;
+}
+.mbottom50{
+    margin-bottom: 50px;
+}
+.nopad{
+    padding: 0
+}
+.requestPin{
+    color: #1ba1dc;
+    /*text-decoration: underline;*/
+    font-size: 15px;
+    border-bottom: 1px solid #1ba1dc;
+    margin-top: 20px;
+}
+.requestPin:hover{
+    color: #1ba1dc;  	  	
+    text-decoration: none;
+}
+.pinLabel{
+    font-size: 10px;
+    color: #000;
+    opacity: 0.5;
+    font-weight: bold;
+    padding-left: 12px;
+    margin: 0;
+}
+.pinText{
+    border-radius: 0;
+  border: 0px none;
+  border-bottom: 1px solid #ababab;
+  box-shadow: inset 0 1px 1px rgba(255, 255, 255, 0.075);
+  width: 83%;
+  height: 40px;
+  font-size: 20px;
+}
+.pinText::placeholder{
+    font-size: 14px;
+}
+.pinText:focus{
+    border-color: none;
+    box-shadow: none;
+}
+.loginButton{
+    background-color: #1ba1dc;
+    width: 15%;
+    height: 40px;
+    border: none;
+    opacity: 0.5;
+}
+.loginButton img{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+}

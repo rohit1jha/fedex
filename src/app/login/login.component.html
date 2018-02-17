@@ -1,0 +1,38 @@
+<!-- <p>
+  login works!
+</p> -->
+<div class="mainLogin">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-4 content">
+        <form>
+          <div class="row mbottom50">
+            <div class="col-md-8">
+              <img src="./assets/Images/fedex-logo.png" class="width100p">
+            </div>
+            <div class="col-md-4 nopad">
+              <img src="./assets/Images/close-icon.png" class=" pull-right">
+            </div>
+          </div>
+          <div class="row">
+            <div class=" col-md-11 form-group">
+              <label for="pin" class="pinLabel">Enter PIN</label>
+              <div class="col-md-12 nopad">
+                <input type="password" id="pinNum" class="form-control pinText col-md-10" placeholder="Enter PIN" name="pin">
+                <button class="loginButton col-md-2" (click)="loginIn()">
+                  <img src="./assets/Images/right-icon.png">
+                </button>
+                <span *ngIf="errorMsgs" class="errorMsg" style="color:red;">Please Enter Your PIN.</span>
+              </div>
+             
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-11">
+              <a href="#" class="pull-right requestPin">Request new PIN</a>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
